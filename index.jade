@@ -1,0 +1,27 @@
+//output:index.html
+doctype html
+html
+  head
+    title NutriSaurus Showcase Website
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="https://necolas.github.io/normalize.css/4.1.1/normalize.css", type="text-css")
+    link(rel="stylesheet", href="css/main.css", type="text/css")
+    link(href='https://fonts.googleapis.com/css?family=Montserrat|Ubuntu', rel='stylesheet', type='text/css')
+    include mixins
+  body
+    header.herospace
+      .topbar
+        img.nslogo(src="img/wlogo.svg")
+        .herobtns
+          a#signup(href="#") Sign Up
+          a#login(href="#") Log In
+      .blurb  
+        h2 Simple.<br>Healthy.<br>Living.
+        h1 Take control of your diet
+        p#herop Healthy eating is too expensive: MYTH! Take the hassle out of eating healthy. NutriSaurus will help you find recipes that are great for your body and great for your pocket!
+        a(href="#appstore"): img(src="https://new.echoprayer.com/assets/marketing/home/download-on-the-app-store-button-30782d20f03ca2b3251943512225b7a1.png")
+    .mainNav  
+      +mainNav()
+    
+    .bodycontent

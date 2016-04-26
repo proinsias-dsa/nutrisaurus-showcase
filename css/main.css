@@ -1,0 +1,134 @@
+body{
+  background-color: pink;
+}
+
+.herospace{
+  height: 620px;
+  background-color: #4AC760;
+  background-image: url(../img/pixels.png);
+  color: white;
+  margin: 0 0 0 0;
+}
+
+.herospace h1, h2{
+  font-family: 'Montserrat', sans-serif;
+  clear: both;
+  text-transform: uppercase;
+}
+.herospace h2{
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.herospace h1{
+  font-size: 30px;
+}
+
+.herospace p{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.topbar{
+  display: inline-block;
+  width: 100%;
+}
+
+.nslogo{
+  margin: 20px 0  0 40px;
+  height: 120px;
+  float: left;
+}
+
+.herobtns{
+  margin-left: 80%;
+  margin-top: 60px;
+}
+
+#signup{
+  background-color: #4AC760;
+  padding: 15px 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  -webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	  	-ms-transition: all .3s ease;
+		   -o-transition: all .3s ease;
+			    transition: all .3s ease;
+}
+
+#signup:hover{
+  background-color: #fff;
+  color: #4AC760;
+  -webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+		  -ms-transition: all .3s ease;
+		   -o-transition: all .3s ease;
+		      transition: all .3s ease;
+}
+
+#login{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#login:hover{
+  color: #4AC760;
+  -webkit-transition: all .3s ease;
+     -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+       -o-transition: all .3s ease;
+          transition: all .3s ease;
+}
+
+.blurb{
+  width: 540px;
+  margin-left: 45px;
+}
+
+.blurb a img{
+  height: 70px;
+}
+
+#herop{
+  width: 100%;
+}
+
+.mainNav{
+  width: 100%;
+  height: 50px;
+  background-color: #CCFCCC;
+  margin-top: -20px;
+  position: sticky;
+  top: 0;
+}
+
+.mainNav li{
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.mainNav li a{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #555;
+  margin-left: 50px;
+}
+
+.mainNav li a:hover{
+  color: #333;
+}
+
+.bodycontent{
+  height: 2000px;
+}
